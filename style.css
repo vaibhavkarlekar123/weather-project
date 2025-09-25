@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #E0F7FA;
+}
+h1{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    color: #1B3B5F;
+
+}
+#container{
+    height: 300px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    background-color: #FFFFFF;
+    border: 1.5rem;
+    border-color: aliceblue;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+#location{
+    
+    border: 2px solid #2196F3
+}
+
+button{
+   
+    width: 6rem;
+    height: 1.5rem;
+    border: 1rem;
+    background-color: #2196F3;
+    font-size: larger;
+    border-radius: 6px;
+}
+button:hover{
+    background-color:  #1976D2;;
+}
+#weather-info{
+    color: #37474F;
+    font-size: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
